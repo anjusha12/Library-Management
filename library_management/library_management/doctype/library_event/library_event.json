@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-24 09:36:58.767915",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "event_id",
+  "description",
+  "event_date",
+  "start_time",
+  "end_time",
+  "organizer",
+  "registration_status",
+  "colors",
+  "rating",
+  "equipment_barcode",
+  "geolocation_jslh",
+  "duration_of_event",
+  "password",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "event_id",
+   "fieldtype": "Data",
+   "label": "Event"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "event_date",
+   "fieldtype": "Date",
+   "label": "Event Date"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "organizer",
+   "fieldtype": "Link",
+   "label": "Organizer",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "registration_status",
+   "fieldtype": "Select",
+   "label": "registration Status",
+   "options": "open\nclosed\nwaitlist"
+  },
+  {
+   "fieldname": "colors",
+   "fieldtype": "Color",
+   "label": "Colors"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "equipment_barcode",
+   "fieldtype": "Barcode",
+   "label": "Equipment Barcode"
+  },
+  {
+   "fieldname": "geolocation_jslh",
+   "fieldtype": "Geolocation"
+  },
+  {
+   "fieldname": "duration_of_event",
+   "fieldtype": "Duration",
+   "label": "Duration of Event"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-24 10:36:08.034814",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Event",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
